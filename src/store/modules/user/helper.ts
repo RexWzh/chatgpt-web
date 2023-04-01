@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://cdn.jsdelivr.net/gh/zhihongecnu/PicBed3/picgo/20230310000823.png',
       name: 'RexWang',
-      description: '万能的 ChatGPT 聊天机器人',
+      description: 'ChatGPT 聊天机器人',
     },
   }
 }
