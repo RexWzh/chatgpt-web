@@ -11,15 +11,15 @@ export function useLanguage() {
       case 'en-US':
         setLocale('en-US')
         return enUS
-      case 'ko-KR':
-        setLocale('ko-KR')
-        return koKR
       case 'zh-CN':
         setLocale('zh-CN')
         return zhCN
       case 'zh-TW':
         setLocale('zh-TW')
         return zhTW
+      case 'ko-KR':
+        setLocale('ko-KR')
+        return koKR
       default:
         setLocale('zh-CN')
         return zhCN
