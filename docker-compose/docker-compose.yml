@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     container_name: chatgpt-web
-    image: rexwzh/chatgpt-web:v0.0.2 # 总是使用latest,更新时重新pull该tag镜像即可
+    image: rexwzh/chatgpt-web:v0.0.3 # 总是使用latest,更新时重新pull该tag镜像即可
     ports:
       - 3002:3002
     environment:
